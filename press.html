@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Imprensa — Coco dos Quatro Cantos</title>
+
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="./assets/favicon.png" />
+</head>
+
+<body id="top">
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="./index.html" aria-label="Ir para a página inicial">
+        <img class="brand__logo" src="./assets/logo.svg" alt="Coco dos Quatro Cantos" />
+        <span class="brand__name">Coco dos Quatro Cantos</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <a class="nav-link" href="./index.html#about">Sobre</a>
+        <a class="nav-link" href="./index.html#coco">O que é</a>
+        <a class="nav-link" href="./index.html#members">Brincantes</a>
+        <a class="nav-link" href="./index.html#events">Eventos</a>
+        <a class="nav-link is-active" href="./press.html">Imprensa</a>
+        <a class="nav-link" href="./index.html#contactos">Contactos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section section--press">
+      <div class="container">
+        <p class="kicker">IMPRENSA</p>
+        <h1 class="title">Na mídia</h1>
+
+        <p class="lead">
+          Matérias sobre a turnê da <strong>Mestra Ana Lúcia</strong> em Portugal, da qual o
+          <strong>Coco dos Quatro Cantos</strong> participou na <strong>co-produção</strong>.
+        </p>
+
+        <div class="press-grid">
+          <!-- JC -->
+          <article class="press-card">
+            <div class="press-thumb" style="--thumb:url('./assets/press/jc-ana-lucia.jpg')">
+              <img
+                src="./assets/press/jc-ana-lucia.jpg"
+                alt="Matéria do Jornal do Commercio sobre Mestra Ana Lúcia levando o coco de roda a Portugal"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="press-body">
+              <h3 class="press-title">Patrimônio Vivo de PE, Mestra Ana Lúcia leva o coco de roda a Portugal</h3>
+              <p class="press-meta">Jornal do Commercio (JC) • 2025</p>
+
+              <div class="press-actions">
+                <a class="smallbtn" target="_blank" rel="noreferrer"
+                   href="https://jc.uol.com.br/cultura/2025/08/08/patrimonio-vivo-de-pe-mestra-ana-lucia-leva-o-coco-de-roda-a-portugal.html">
+                  Ler online
+                </a>
+
+                <a class="smallbtn smallbtn--ghost" target="_blank" rel="noreferrer"
+                   href="./assets/press/jc-ana-lucia.jpg">
+                  Abrir imagem
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- O Grito -->
+          <article class="press-card">
+            <div class="press-thumb" style="--thumb:url('./assets/press/ogrito-ana-lucia.jpg')">
+              <img
+                src="./assets/press/ogrito-ana-lucia.jpg"
+                alt="Matéria da Revista O Grito sobre Mestra Ana Lúcia e tradições do coco em Portugal"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="press-body">
+              <h3 class="press-title">Mestra Ana Lúcia leva as tradições do coco a Portugal com o projeto “Todo o Mundo Tem um Amor”</h3>
+              <p class="press-meta">Revista O Grito • 2025</p>
+
+              <div class="press-actions">
+                <a class="smallbtn" target="_blank" rel="noreferrer"
+                   href="https://revistaogrito.com/mestra-ana-lucia-leva-as-tradicoes-do-coco-e-a-portugal-com-o-projeto-todo-o-mundo-tem-um-amor/">
+                  Ler online
+                </a>
+
+                <a class="smallbtn smallbtn--ghost" target="_blank" rel="noreferrer"
+                   href="./assets/press/ogrito-ana-lucia.jpg">
+                  Abrir imagem
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="press-note muted">
+          <p>
+            Dica: se quiser, você pode adicionar um botão “Download (PDF)” aqui depois,
+            com versões em alta para imprensa.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© <span id="year"></span> Coco dos Quatro Cantos</p>
+      <a class="backtop" href="#top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

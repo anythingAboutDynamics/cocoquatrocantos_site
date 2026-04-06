@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coco dos Quatro Cantos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;600;700;800&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body id="top">
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Ir para o início">
+        <!-- troque para logo.svg se quiser -->
+        <img class="brand__logo" src="./assets/logo.png" alt="Coco dos Quatro Cantos">
+        <span class="brand__name">Coco dos Quatro Cantos</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="nav">
+        <a class="nav-link" href="#home">Início</a>
+        <a class="nav-link" href="#sobre">Sobre</a>
+        <a class="nav-link" href="#coco">Coco de Roda?</a>
+        <a class="nav-link" href="#quem-somos">Quem somos</a>
+        <a class="nav-link" href="#eventos">Eventos</a>
+        <a class="nav-link" href="#imprensa">Imprensa</a>
+        <a class="nav-link" href="#contactos">Contactos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section section--hero">
+      <div class="container hero">
+        <div class="hero__left">
+          <h1 class="poster-title">Coco dos<br/>Quatro Cantos</h1>
+          <p class="lead">
+            Grupo multicultural de Coco de Roda formado em 2024 no Porto (Portugal),
+            por brincantes de diferentes origens.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="#contactos">Fale conosco</a>
+            <a class="btn btn--ghost" href="#eventos">Ver apresentações</a>
+          </div>
+
+          <div class="meta">
+            <span class="pill">Coco de Roda</span>
+            <span class="pill">Porto, PT</span>
+            <span class="pill">Desde 2024</span>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <figure class="frame frame--hero">
+            <img src="./assets/hero.jpg" alt="Apresentação do grupo em palco" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="container grid-2">
+        <div class="copy">
+          <p class="scribble">Sobre o grupo</p>
+          <h2 class="h2">História e missão</h2>
+
+          <p>
+            O Coco dos Quatro Cantos é um grupo multicultural de Coco de Roda formado em 2024
+            na cidade do Porto, Portugal, por brincantes de diferentes origens: Brasil, Portugal e Israel.
+          </p>
+
+          <p>
+            O grupo surge da necessidade de difundir a riqueza cultural brasileira. Nossa missão é valorizar
+            e compartilhar, com cuidado e profundo respeito, as tradições, mestres e mestras que mantêm
+            vivo o patrimônio imaterial do Brasil.
+          </p>
+
+          <p>
+            Através do coco buscamos revelar a beleza da diversidade que compõe a cultura nordestina.
+          </p>
+
+          <p>
+            Constituído por brincantes vindos de diferentes partes do mundo, o grupo cria um espaço de encontro
+            intercultural, onde a tradição se renova sem perder suas raízes.
+          </p>
+        </div>
+
+        <div class="stack">
+          <figure class="frame frame--wide">
+            <img src="./assets/sobre-1.jpg" alt="Foto do grupo" loading="lazy">
+          </figure>
+          <figure class="frame frame--wide">
+            <img src="./assets/sobre-2.jpg" alt="Foto de apresentação" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- O QUE É COCO -->
+    <section id="coco" class="section section--alt">
+      <div class="container grid-2 align-center">
+        <figure class="frame frame--wide">
+          <img src="./assets/coco.jpg" alt="Roda de coco" loading="lazy">
+        </figure>
+
+        <div class="copy">
+          <p class="scribble">O que é</p>
+          <h2 class="h2">Coco de Roda</h2>
+
+          <p>
+            O <strong>Coco de Roda</strong> é uma manifestação popular do Nordeste do Brasil que une <strong>música, dança em roda, percussão e canto responsorial</strong> (chamada e resposta). A roda é coletiva: o coro sustenta o ritmo e, no centro, brincantes entram para dançar, improvisar e trocar energia com quem toca e canta.
+          </p>
+          <ul class="bullets">
+            <li><strong>Como se dança:</strong> em roda, com passos marcados, ginga e entradas no centro.</li>
+            <li><strong>Instrumentos comuns:</strong> zabumba, caixa, pandeiro, ganzá/maracá (e variações).</li>
+            <li><strong>Origens e estilos:</strong> tradição do Nordeste Brasileiro, com vários sotaques locais e formas de brincar.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUEM SOMOS -->
+    <section id="quem-somos" class="section">
+      <div class="container">
+        <p class="scribble center">Quem somos</p>
+        <h2 class="h2 center">Brincantes</h2>
+
+        <div class="members" id="membersGrid"></div>
+      </div>
+    </section>
+
+    <!-- EVENTOS (9:16) -->
+    <section id="eventos" class="section section--alt">
+      <div class="container">
+        <p class="scribble center">Eventos &amp; clipping</p>
+        <h2 class="h2 center">Apresentações e oficinas</h2>
+
+        <div class="events-toolbar">
+          <label class="field">
+            <span>Ano</span>
+            <select id="yearFilter">
+              <option value="all">Todos</option>
+            </select>
+          </label>
+
+          <label class="field field--grow">
+            <span>Pesquisar</span>
+            <input id="searchFilter" type="search" placeholder="Ex.: Forróbodó, Porto, oficina..." />
+          </label>
+        </div>
+
+        <div class="events events--reels" id="eventsGrid"></div>
+      </div>
+    </section>
+
+    <section id="imprensa" class="section section--press">
+  <div class="container">
+    <p class="scribble center">Imprensa</p>
+    <h2 class="h2 center">Na mídia</h2>
+
+    <p class="lead">
+      Matérias sobre a primeira turnê da <strong>Mestra Ana Lúcia</strong> em Portugal, da qual o
+      <strong>Coco dos Quatro Cantos</strong> participou na <strong>produção de sua apresentação na cidade do do Porto.</strong>      
+    </p>
+<p>
+  Ela foi realizada pela <strong>Buruçu Produções</strong> e <strong>ruipontocom</strong> com apoio do <strong>Governo do Estado de Pernambuco, Secretaria de Cultura de Pernambuco e Fundarpe.</strong>
+</p>
+    <div class="press-grid">
+      <!-- JC -->
+      <article class="press-card">
+        <div class="press-thumb" style="--thumb:url('./assets/press/jc-ana-lucia.jpg')">
+          <img
+            src="./assets/press/jc-ana-lucia.jpg"
+            alt="Matéria do Jornal do Commercio sobre Mestra Ana Lúcia levando o coco de roda a Portugal"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="press-body">
+          <h3 class="press-title">Patrimônio Vivo de PE, Mestra Ana Lúcia leva o coco de roda a Portugal</h3>
+          <p class="press-meta">Jornal do Commercio (JC) • 2025</p>
+
+          <div class="press-actions">
+            <a class="smallbtn" target="_blank" rel="noreferrer"
+               href="https://jc.uol.com.br/cultura/2025/08/08/patrimonio-vivo-de-pe-mestra-ana-lucia-leva-o-coco-de-roda-a-portugal.html">
+              Ler online
+            </a>
+
+            <a class="smallbtn smallbtn--ghost" target="_blank" rel="noreferrer"
+               href="./assets/press/jc-ana-lucia.jpg">
+              Abrir imagem
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- O Grito -->
+      <article class="press-card">
+        <div class="press-thumb" style="--thumb:url('./assets/press/ogrito-ana-lucia.jpg')">
+          <img
+            src="./assets/press/ogrito-ana-lucia.jpg"
+            alt="Matéria da Revista O Grito sobre Mestra Ana Lúcia e tradições do coco em Portugal"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="press-body">
+          <h3 class="press-title">Mestra Ana Lúcia leva as tradições do coco a Portugal com o projeto “Todo o Mundo Tem um Amor”</h3>
+          <p class="press-meta">Revista O Grito • 2025</p>
+
+          <div class="press-actions">
+            <a class="smallbtn" target="_blank" rel="noreferrer"
+               href="https://revistaogrito.com/mestra-ana-lucia-leva-as-tradicoes-do-coco-e-a-portugal-com-o-projeto-todo-o-mundo-tem-um-amor/">
+              Ler online
+            </a>
+
+            <a class="smallbtn smallbtn--ghost" target="_blank" rel="noreferrer"
+               href="./assets/press/ogrito-ana-lucia.jpg">
+              Abrir imagem
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+    <!-- CONTACTOS -->
+    <section id="contactos" class="section">
+      <div class="container contact">
+        <div class="contact__left">
+          <p class="scribble">Contactos</p>
+          <h2 class="h2">Vamos fazer uma roda?</h2>
+
+          <ul class="contact__list">
+            <li><span class="icon">☎</span><a href="https://wa.link/snedqe">WhatsApp</a></li>
+            <li><span class="icon">✉</span><a href="mailto:producao@cocoquatrocantos.pt">producao@cocoquatrocantos.pt</a></li>
+            <li><span class="icon">🌐</span><a href="https://cocoquatrocantos.pt" target="_blank" rel="noreferrer">cocoquatrocantos.pt</a></li>
+            <li><span class="icon">✳</span><a href="https://linktr.ee/cocoquatrocantos" target="_blank" rel="noreferrer">linktree</a></li>
+          </ul>
+
+          <div class="cta mt-lg">
+            <a class="btn" href="mailto:producao@cocoquatrocantos.pt">Pedir orçamento</a>
+            <a class="btn btn--ghost" href="#eventos">Ver agenda</a>
+          </div>
+        </div>
+
+        <div class="contact__right">
+          <figure class="frame frame--contact">
+            <img src="./assets/contact.jpg" alt="Cartaz/arte do grupo" loading="lazy">
+          </figure>
+          <p class="muted center mt-md">@cocoquatrocantos</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© <span id="year"></span> Coco dos Quatro Cantos</span>
+        <a class="backtop" href="#top">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

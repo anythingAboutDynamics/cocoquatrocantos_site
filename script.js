@@ -162,7 +162,8 @@ document.addEventListener("DOMContentLoaded", () => {
     { title: "Katimbó Duo + Oficina", month: "Novembro", year: 2025, img: "./assets/events/presto-do-coco-e-furmiga-dub.png", link: "https://www.instagram.com/p/DRnB62ZjCyN/" },
     { title: "Roda de Coco Pré-Carnaval 2a. Edição", month: "Fevereiro", year: 2026, img: "./assets/events/roda-de-coco-pre-carnaval-II.png", link: "https://www.instagram.com/p/DUTqPxtDI1p/" },
     { title: "Terça da Mandinga 2a. Edição", month: "Fevereiro", year: 2026, img: "./assets/events/terca-da-mandinga-II.png", link: "https://www.instagram.com/p/DU1HjuXDPWA/?img_index=1" },
-    { title: "Ressaca de Carnaval: A ressaca que dá samba", month: "Fevereiro", year: 2026, img: "./assets/events/ressaca-de-carnaval-tbaqs.png", link: "https://www.instagram.com/p/DUiTjRbDIhH/" }
+    { title: "Aniversário de 5 anos do Habitação Hoje", month: "Abril", year: 2026, img: "./assets/events/5o-aniversaio-habitacao-hoje-2025.png", link: "https://www.instagram.com/p/DXiCdBJibRb/?img_index=1" },
+    { title: "Baião de Dois - Festival de Música, arte e sabores do Nordeste", month: "Maio", year: 2026, img: "./assets/events/fesitval-baiao-de-dois-1a-edicao-2025.png", link: "https://www.instagram.com/p/DXkNL-oiNSR/" }
   ];
 
   const yearSelect = document.getElementById("yearFilter");
@@ -212,7 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3 class="event__title">${safeTitle}</h3>
               <p class="event__meta">${e.month}/${e.year}</p>
               <div class="event__actions">
-                <a class="smallbtn smallbtn--ghost" href="#contactos">Contratar</a>
+                <a class="smallbtn smallbtn--ghost" href="${e.link}}">Link</a>
               </div>
             </div>
           </article>

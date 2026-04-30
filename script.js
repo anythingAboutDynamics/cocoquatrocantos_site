@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //{ name: "Alicia Morbach", place: "São Paulo (BRA)", inst: "Voz, ganzá, caxixi e pandeiro", img: "./assets/members/alicia.png" },
     //{ name: "Cassiano", place: "Alagoas (BRA)", inst: "Agogô e triângulo", img: "./assets/members/cassiano.png" },
     { name: "Edinho", place: "Rio de Janeiro (BRA)", inst: "Bombo, Zabumba, conga/ilú e voz", img: "./assets/members/edinho.png" },
-    { name: "EFI", place: "Jerusalem (ISR)", inst: "Pandeiro e voz", img: "./assets/members/efi.png" },
+    { name: "EFI", place: "Jerusalem (JM)", inst: "Pandeiro e voz", img: "./assets/members/efi.png" },
     { name: "Fly", place: "Minas Gerais (BRA)", inst: "Matraca e Voz", img: "./assets/members/fly.png" },
     { name: "Juliano Mattos", place: "Sergipe (BRA)", inst: "Caixa, conga, ganzá, pandeiro e maracá", img: "./assets/members/juliano.png" },
     { name: "Karla Oliveira", place: "Pernambuco (BRA)", inst: "Ganzá, caxixi, voz e agbê", img: "./assets/members/karla.png" },

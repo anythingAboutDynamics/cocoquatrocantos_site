@@ -148,19 +148,19 @@ document.addEventListener("DOMContentLoaded", () => {
   // Coloque as imagens em: ./assets/events/
   // Recomendado: 1080x1920 (reels/stories)
   const events = [
-    { title: "Roda de Coco Pré-Carnaval", month: "Fevereiro", year: 2025, img: "./assets/events/roda-de-coco.pre-carnaval.png", link: "https://www.instagram.com/p/DF9wsHQMgbU/" },
+    { title: "Roda de Coco Pré-Carnaval 1a. Edição", month: "Fevereiro", year: 2025, img: "./assets/events/roda-de-coco.pre-carnaval.png", link: "https://www.instagram.com/p/DF9wsHQMgbU/" },
     { title: "Kebraku Karnaval", month: "Março", year: 2025, img: "./assets/events/kebraku.png", link: "https://www.instagram.com/p/DGThkresQYz/?img_index=1" },
     { title: "Roda de Coco Primaveril", month: "Abril", year: 2025, img: "./assets/events/primaveril.png", link: "https://www.instagram.com/p/DHx-LC_sRD1/" },
     { title: "Festival de Primavera", month: "Maio", year: 2025, img: "./assets/events/festival-primavera.png", link: "https://www.instagram.com/p/DJcbJlHtZ0w/" },
     { title: "Forróbodó (São João)", month: "Junho", year: 2025, img: "./assets/events/forrobodo.png", link: "https://www.instagram.com/p/DK6-cuIoXQr/" },
     { title: "Oficina de Coco com Mestre Adriano dos Santos (Coco dos Pretos)", month: "Maio", year: 2025, img: "./assets/events/oficina-de-coco-com-mestre-adriano.png", link: "#" },
-    { title: "Oficina com Tiago Félix", month: "Maio", year: 2025, img: "./assets/events/tiago-felix.png", link: "https://www.instagram.com/p/DJzDoc7MJ0J/?img_index=1" },
+    { title: "Oficina de Coco com Tiago Félix", month: "Maio", year: 2025, img: "./assets/events/tiago-felix.png", link: "https://www.instagram.com/p/DJzDoc7MJ0J/?img_index=1" },
     { title: "Festival Brasil Cósmico", month: "Julho", year: 2025, img: "./assets/events/festival-brasil-cosmico.png", link: "https://www.instagram.com/p/DK-OucWoPNb/" },
     { title: "Mestra Ana Lúcia", month: "Agosto", year: 2025, img: "./assets/events/mestra-ana-lucia.png", link: "https://www.instagram.com/p/DNF1jI2s9M8/" },
     { title: "Dia do Brasil no Porto", month: "Setembro", year: 2025, img: "./assets/events/dia-do-brasil-no-porto.png", link: "https://www.instagram.com/p/DN-4y4GjFDx/" },
     { title: "Carnaverão 2025", month: "Setembro", year: 2025, img: "./assets/events/carnaverao-2025.png", link: "https://www.instagram.com/p/DObhiMQCA7a/" },
     { title: "Aniversário de 1 ano", month: "Novembro", year: 2025, img: "./assets/events/aniversario-1-ano-coco-dos-quatro-cantos.png", link: "https://www.instagram.com/p/DRU3PhnjIOJ/" },
-    { title: "Katimbó Duo + Oficina", month: "Novembro", year: 2025, img: "./assets/events/presto-do-coco-e-furmiga-dub.png", link: "https://www.instagram.com/p/DRnB62ZjCyN/" },
+    { title: "Katimbó Duo + Oficina de Coco com Presto do Coco (Seu Zé Quer Coco)", month: "Novembro", year: 2025, img: "./assets/events/presto-do-coco-e-furmiga-dub.png", link: "https://www.instagram.com/p/DRnB62ZjCyN/" },
     { title: "Roda de Coco Pré-Carnaval 2a. Edição", month: "Fevereiro", year: 2026, img: "./assets/events/roda-de-coco-pre-carnaval-II.png", link: "https://www.instagram.com/p/DUTqPxtDI1p/" },
     { title: "Terça da Mandinga 2a. Edição", month: "Fevereiro", year: 2026, img: "./assets/events/terca-da-mandinga-II.png", link: "https://www.instagram.com/p/DU1HjuXDPWA/?img_index=1" },
     { title: "Aniversário de 5 anos do Habitação Hoje", month: "Abril", year: 2026, img: "./assets/events/5o-aniversaio-habitacao-hoje-2025.png", link: "https://www.instagram.com/p/DXiCdBJibRb/?img_index=1" },

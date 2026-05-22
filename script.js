@@ -61,18 +61,18 @@ document.addEventListener("DOMContentLoaded", () => {
   // ===== MEMBERS =====
   // Mantenha seus arquivos em ./assets/members/
   const members = [
-    //{ name: "Alicia Morbach", place: "São Paulo (BRA)", inst: "Voz, ganzá, caxixi e pandeiro", img: "./assets/members/alicia.png" },
+    //{ name: "Alicia Morbach", place: "São Paulo (BRA)", inst: "voz, ganzá, caxixi e pandeiro", img: "./assets/members/alicia.png" },
     //{ name: "Cassiano", place: "Alagoas (BRA)", inst: "Agogô e triângulo", img: "./assets/members/cassiano.png" },
-    { name: "Edinho", place: "Rio de Janeiro (BRA)", inst: "Bombo, Zabumba, conga/ilú e voz", img: "./assets/members/edinho.png" },
-    { name: "EFI", place: "Jerusalem (JM)", inst: "Pandeiro e voz", img: "./assets/members/efi.png" },
-    { name: "Fly", place: "Minas Gerais (BRA)", inst: "Matraca e Voz", img: "./assets/members/fly.png" },
-    { name: "Juliano Mattos", place: "Sergipe (BRA)", inst: "Caixa, conga, ganzá, pandeiro e maracá", img: "./assets/members/juliano.png" },
+    { name: "Edvandro (Edinho)", place: "Rio de Janeiro (BRA)", inst: "Bombo, ilú, matraca e voz", img: "./assets/members/edinho.png" },
+    { name: "Efrat", place: "Jerusalem (JM)", inst: "Pandeiro e voz", img: "./assets/members/efi.png" },
+    { name: "Fly", place: "Minas Gerais (BRA)", inst: "Matraca e voz", img: "./assets/members/fly.png" },
+    { name: "Juliano Mattos", place: "Sergipe (BRA)", inst: "Caixa, congas, ganzá e maracá", img: "./assets/members/juliano.png" },
     { name: "Karla Oliveira", place: "Pernambuco (BRA)", inst: "Ganzá, caxixi, voz e agbê", img: "./assets/members/karla.png" },
     { name: "Lisa Sousa", place: "Pernambuco (BRA)", inst: "Ganzá, triângulo, caxixi e voz", img: "./assets/members/lisa.png" },
-    { name: "Nuno Guedes", place: "Porto (PRT)", inst: "Caixa e ilú", img: "./assets/members/nuno.png" },
+    { name: "Nuno Guedes", place: "Porto (PRT)", inst: "Caixa e congas", img: "./assets/members/nuno.png" },
     { name: "Sofia Costa", place: "Porto (PRT)", inst: "Pandeiro, caxixi e voz", img: "./assets/members/sofia.png" },
-    { name: "Victória", place: "Sergipe (BRA)", inst: "Pandeiro, agbê e voz", img: "./assets/members/victoria.png" },
-    { name: "Nize", place: "Rio de Janeiro (BRA)", inst: "Matraca e voz", img: "./assets/members/nize.png" }
+    { name: "Victória Andrade", place: "Sergipe (BRA)", inst: "Pandeiro, agbê e voz", img: "./assets/members/victoria.png" },
+    { name: "Vanize", place: "Rio de Janeiro (BRA)", inst: "Matraca e voz", img: "./assets/members/nize.png" }
   ];
 
   const membersGrid = document.getElementById("membersGrid");

@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3 class="event__title">${safeTitle}</h3>
               <p class="event__meta">${e.month}/${e.year}</p>
               <div class="event__actions">
-                <a class="smallbtn smallbtn--ghost" href="${e.link}}">Link</a>
+                <a class="smallbtn smallbtn--ghost" href="${e.link}">Link</a>
               </div>
             </div>
           </article>

@@ -153,6 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { title: "Roda de Coco Primaveril", month: "Abril", year: 2025, img: "./assets/events/primaveril.png", link: "https://www.instagram.com/p/DHx-LC_sRD1/" },
     { title: "Festival de Primavera", month: "Maio", year: 2025, img: "./assets/events/festival-primavera.png", link: "https://www.instagram.com/p/DJcbJlHtZ0w/" },
     { title: "Forróbodó (São João)", month: "Junho", year: 2025, img: "./assets/events/forrobodo.png", link: "https://www.instagram.com/p/DK6-cuIoXQr/" },
+    { title: "Oficina de Coco com Mestre Adriano dos Santos (Coco dos Pretos)", month: "Maio", year: 2025, img: "./assets/events/oficina-de-coco-com-mestre-adriano.png", link: "#" },
     { title: "Oficina com Tiago Félix", month: "Maio", year: 2025, img: "./assets/events/tiago-felix.png", link: "https://www.instagram.com/p/DJzDoc7MJ0J/?img_index=1" },
     { title: "Festival Brasil Cósmico", month: "Julho", year: 2025, img: "./assets/events/festival-brasil-cosmico.png", link: "https://www.instagram.com/p/DK-OucWoPNb/" },
     { title: "Mestra Ana Lúcia", month: "Agosto", year: 2025, img: "./assets/events/mestra-ana-lucia.png", link: "https://www.instagram.com/p/DNF1jI2s9M8/" },

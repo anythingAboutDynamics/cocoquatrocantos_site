@@ -247,10 +247,10 @@ p{
 }
 
 /* MEMBERS */
-.members{
+.members {
   margin-top: 34px;
-  display:grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 .member{
@@ -521,4 +521,23 @@ p{
 
 .press-note{
   margin-top: 18px;
+}
+
+.press-thumb--source {
+  aspect-ratio: 9 / 16;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--accent);
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 1px;
+  background: linear-gradient(145deg, #403263, #765ca5);
+}
+
+.press-thumb--source::before {
+  display: none;
 }

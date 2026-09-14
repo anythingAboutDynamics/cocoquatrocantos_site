@@ -65,14 +65,14 @@ document.addEventListener("DOMContentLoaded", () => {
     //{ name: "Cassiano", place: "Alagoas (BRA)", inst: "Agogô e triângulo", img: "./assets/members/cassiano.png" },
     { name: "Edvandro (Edinho)", place: "Rio de Janeiro (BRA)", inst: "Bombo, ilú, matraca e voz", img: "./assets/members/edinho.png" },
     { name: "Efrat", place: "Jerusalem (JM)", inst: "Pandeiro e voz", img: "./assets/members/efi.png" },
-    { name: "Fly", place: "Minas Gerais (BRA)", inst: "Matraca e voz", img: "./assets/members/fly.png" },
+    //{ name: "Fly", place: "Minas Gerais (BRA)", inst: "Matraca e voz", img: "./assets/members/fly.png" },
     { name: "Juliano Mattos", place: "Sergipe (BRA)", inst: "Caixa, congas, ganzá e maracá", img: "./assets/members/juliano.png" },
     { name: "Karla Oliveira", place: "Pernambuco (BRA)", inst: "Ganzá, caxixi, voz e agbê", img: "./assets/members/karla.png" },
-    { name: "Lisa Sousa", place: "Pernambuco (BRA)", inst: "Ganzá, triângulo, caxixi e voz", img: "./assets/members/lisa.png" },
+    // { name: "Lisa Sousa", place: "Pernambuco (BRA)", inst: "Ganzá, triângulo, caxixi e voz", img: "./assets/members/lisa.png" },
     { name: "Nuno Guedes", place: "Porto (PRT)", inst: "Caixa e congas", img: "./assets/members/nuno.png" },
     { name: "Sofia Costa", place: "Porto (PRT)", inst: "Pandeiro, caxixi e voz", img: "./assets/members/sofia.png" },
     { name: "Victória Andrade", place: "Sergipe (BRA)", inst: "Pandeiro, agbê e voz", img: "./assets/members/victoria.png" },
-    { name: "Vanize", place: "Rio de Janeiro (BRA)", inst: "Matraca e voz", img: "./assets/members/nize.png" }
+    //{ name: "Vanize", place: "Rio de Janeiro (BRA)", inst: "Matraca e voz", img: "./assets/members/nize.png" }
   ];
 
   const membersGrid = document.getElementById("membersGrid");
@@ -165,7 +165,10 @@ document.addEventListener("DOMContentLoaded", () => {
     { title: "Terça da Mandinga 2a. Edição", month: "Fevereiro", year: 2026, img: "./assets/events/terca-da-mandinga-II.png", link: "https://www.instagram.com/p/DU1HjuXDPWA/?img_index=1" },
     { title: "Aniversário de 5 anos do Habitação Hoje", month: "Abril", year: 2026, img: "./assets/events/5o-aniversaio-habitacao-hoje-2025.png", link: "https://www.instagram.com/p/DXiCdBJibRb/?img_index=1" },
     { title: "KEBRAKU e MACHAMBA", month: "Maio", year: 2026, img: "./assets/events/kebraku-e-machamba.png", link: "https://www.instagram.com/p/DYAYXEejImu/?img_index=1" },
-    { title: "Baião de Dois - Festival de Música, arte e sabores do Nordeste", month: "Maio", year: 2026, img: "./assets/events/fesitval-baiao-de-dois-1a-edicao-2025.png", link: "https://www.instagram.com/p/DXkNL-oiNSR/" }
+    { title: "Baião de Dois - Festival de Música, arte e sabores do Nordeste", month: "Maio", year: 2026, img: "./assets/events/fesitval-baiao-de-dois-1a-edicao-2025.png", link: "https://www.instagram.com/p/DXkNL-oiNSR/" },
+    { title: "Coco de Roda com Guga do Manuel", month: "Agosto", year: 2026, img: "./assets/events/2028_08_01_guga_do_manuel_ju_evangelista_coco_quatro_cantos_post.png", link: "https://www.instagram.com/p/Da2tJbRRyzW/" },
+    { title: "Estação Brasil 2026 | Aveiro", month: "Setembro", year: 2026, img: "./assets/events/2026_09_06_dia_do_brasil_em_aveiro.jpeg", link: "https://www.instagram.com/p/DcYrFyFodxU/" },
+    { title: "Encantaria Paraibana | Coletivo Raízes da Cultura Popular", month: "Setembro", year: 2026, img: "./assets/events/2026_09_20_encantaria_paraibaina_cartaz_instagram_01.png", link: "https://www.instagram.com/p/DdBwwvWI5-S/" }    
   ];
 
   const yearSelect = document.getElementById("yearFilter");
